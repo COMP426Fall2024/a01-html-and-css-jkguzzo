@@ -1,17 +1,89 @@
-body {
-    background-color: powderblue;
-}
-h1 {
-    color: blue;
+
+h1,h2 {
+    color: rgb(28, 106, 73);
 }
 p {
-    color: red;
+    color: black;
+    font-family: arial
+}
+h1 {
+    font-size: 35px;
+}
+
+.topofpage {
+    background-color: rgb(28, 106, 73);
+    text-align: center;
+}
+
+hr {
+    height: 10px;
+    background-color: rgb(28, 106, 73);
 }
 
 a {
-    background-color: red;
-    border-style: groove;
+    background-color: rgb(28, 106, 73);
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: helvetica;
+    text-decoration: none;
+}
+
+table, th, td {
+    text-align: left;
+    border-style: solid;
+    border-color: rgb(14, 50, 35);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    border-collapse: collapse;
+    background-color: rgb(28, 106, 73);
+    color: white;
+}
+
+td:hover {
+    background-color: white;
+    color: rgb(14, 50, 35);
+}
+
+a:hover {
+    background-color: white;
+    color: rgb(14, 50, 35);
     border-radius: 5px;
-    margin-top: 500px;
-    margin-bottom: 200px; 
+}
+
+th {
+    height: 60px;
+    padding: 5px;
+}
+
+td {
+    height: 40px;
+    vertical-align: bottom;
+    padding: 5px;
+}
+
+select {
+    background-color: rgb(28, 106, 73);
+    color: white;
+    padding: 5px;
+    margin-left: 5px
+}
+
+img {
+    width: 200px;
+}
+
+#babyHercules {
+    width: 400px;
+}
+
+#hera {
+    width: 400px;
+}
+
+h1 + img {
+    height: auto;
+    width: 250px;
+    margin-right: 50px;
 }
