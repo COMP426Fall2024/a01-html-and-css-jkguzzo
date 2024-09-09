@@ -1,9 +1,9 @@
 
 h1,h2 {
-    color: rgb(28, 106, 73);
+    color: #1b6a49;
 }
 p {
-    color: black;
+    color: #000000;
     font-family: arial
 }
 h1 {
@@ -11,19 +11,19 @@ h1 {
 }
 
 .topofpage {
-    background-color: rgb(28, 106, 73);
+    background-color: #1b6a49;
     text-align: center;
 }
 
 hr {
     height: 10px;
-    background-color: rgb(28, 106, 73);
+    background-color: #1b6a49;
 }
 
 a {
     font-size: 25px;
-    background-color: rgb(28, 106, 73);
-    color: white;
+    background-color: #1b6a49;
+    color: #ffffff;
     margin-right: 10px;
     margin-left: 10px;
     font-family: helvetica;
@@ -33,23 +33,23 @@ a {
 table, th, td {
     text-align: left;
     border-style: solid;
-    border-color: rgb(14, 50, 35);
+    border-color: #0e3223;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 60%;
     border-collapse: collapse;
-    background-color: rgb(28, 106, 73);
-    color: white;
+    background-color:#1b6a49;
+    color: #ffffff;
 }
 
 td:hover {
-    background-color: white;
-    color: rgb(14, 50, 35);
+    background-color: #ffffff;
+    color: #1b6a49;
 }
 
 a:hover {
-    background-color: white;
-    color: rgb(14, 50, 35);
+    background-color: #ffffff;
+    color: #1b6a49;
     border-radius: 5px;
 }
 
@@ -66,8 +66,8 @@ td {
 
 select {
     font-size: 17px;
-    background-color: rgb(28, 106, 73);
-    color: white;
+    background-color: #1b6a49;
+    color: #ffffff;
     padding: 5px;
     margin-left: 5px
 }
