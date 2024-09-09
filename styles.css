@@ -1,0 +1,17 @@
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: blue;
+}
+p {
+    color: red;
+}
+
+a {
+    background-color: red;
+    border-style: groove;
+    border-radius: 5px;
+    margin-top: 500px;
+    margin-bottom: 200px; 
+}
